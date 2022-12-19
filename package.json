@@ -1,0 +1,22 @@
+{
+  "name": "interview-demo",
+  "version": "1.0.0",
+  "description": "Small boilerplate that stream lines an interview project.",
+  "main": "index.js",
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}

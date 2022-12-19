@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: rgba(44,45,48,1);
+  --text: white;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: white;
+    --text: rgba(44,45,48,1);
+  }
+}
+  
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.home-hero--container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px 0;
+}
+
+.home-hero--container h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
